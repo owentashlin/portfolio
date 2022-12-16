@@ -1,0 +1,28 @@
+ul {
+  background-color: #959595;
+}
+
+li {
+  display: inline;
+  border-right: 1px solid #959595;
+}
+
+a {
+  display: inline-block;
+  padding: 10px;
+  margin-right: 25px;
+  margin-left: 25px;
+  background-color: #959595; 
+  color: black;
+  font-size: 24px;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+a:hover {
+  color: rgb(224, 224, 224);
+  font-weight: bold;
+}
+
+li:last-child {
+  float: right;
+}
