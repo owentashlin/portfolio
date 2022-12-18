@@ -1,4 +1,5 @@
 import ResumeViewer from "../../components/Resume/Resume"
+import './Contact.css'
 
 function Contact() {
     const onButtonClick = () => {
@@ -15,12 +16,13 @@ function Contact() {
     
     return ( 
         <>
-        <h1>call me</h1>
-        <p></p>
-        <a href='https://github.com/owentashlin'><img src='/'/>broken image link - gihub</a>
-        <a href='https://www.linkedin.com/in/owen-tashlin/'><img src='/'/>broken image link - linkdIn</a>
-        <ResumeViewer/>
-        <button onClick={onButtonClick}>Download Resume</button>
+        <h1>Get In Touch:</h1>
+        <p>I am currently located in the Portland, Oregon area and open to working either in person locally or remotely in other areas. If you like what you see, I would love to hear from you. I can be reached via email, or phone, or LinkedIn.
+        </p>
+        <p>Links to my email and LinkedIn are below, as well as GitHub and you can download a copy of my resume with the button below.</p>
+        <button className='resume-button' onClick={onButtonClick}>Resume</button>
+        <hr></hr>
+        <ResumeViewer />
         </>
      );
 }

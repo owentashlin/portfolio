@@ -1,0 +1,27 @@
+  .footer {
+    background-color: #959595;
+    width: 100%; 
+    margin: auto;
+    display: flex;
+    position: bottom;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: white;
+    justify-content: center;
+  }
+  
+  .footer-link {
+    padding: 10px;
+    background-color: #959595; 
+    color: black;
+    font-size: 24px;
+    font-family: 'Courier New', Courier, monospace;
+  }
+  
+  .footer-link:hover {
+    color: rgb(224, 224, 224);
+    font-weight: bold;
+  }
+  

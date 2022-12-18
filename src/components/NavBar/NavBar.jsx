@@ -1,5 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import {FaGithubSquare} from "react-icons/fa";
+import {FaLinkedin} from 'react-icons/fa'
 import './NavBar.css'
 
 function NavBar() {
