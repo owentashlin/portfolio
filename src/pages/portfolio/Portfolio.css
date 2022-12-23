@@ -1,0 +1,37 @@
+.project-link {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin: 0px 30px 0 30px;
+    max-width: 900px;
+}
+
+.project-link-image{
+    width: 300px;
+    height: 300px;
+    border-radius: 400px 400px;
+    border: 3px solid grey;
+    opacity: 50%;
+    transition: .2s;
+}
+
+.project-link-image:hover {
+    width: 315px;
+    height: 315px;
+    border-radius: 200px 150px;
+    box-shadow: 0px 0px 15px 5px rgb(182, 181, 181);
+    transition: .2s;
+    opacity: 100%;
+}
+
+.project-description {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin: auto;
+    text-align: justify;
+}
+
+#git-link {
+    font-size: 16px;
+}

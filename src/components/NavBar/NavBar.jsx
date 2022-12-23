@@ -1,28 +1,29 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import {FaGithubSquare} from "react-icons/fa";
-import {FaLinkedin} from 'react-icons/fa'
 import './NavBar.css'
 
 function NavBar() {
 
     return (
-    <div className='nav'>
-    <ul className='nav-list'>
-      <li className='nav-button'>
-      <Link className='a' to='/'>Home</Link>
-      </li>
-      <li>
-      <Link className='a' to='/about'>About</Link>
-      </li>
-      <li>
-      <Link className='a' to='/portfolio'>Portfolio</Link>
-      </li>
-      <li>
-      <Link className='a' to='/contact'>Contact</Link>
-      </li>
-    </ul>
-    </div>
+    <div>
+      <div className='nav'>
+        <input type="checkbox" id="nav-check"></input>
+          <div class="nav-btn">
+            <label for="nav-check">
+              <span></span>
+              <span></span>
+              <span></span>
+            </label>
+          </div>
+          
+        <div className='nav-list'>
+          <Link className='nav-link' to='/'>Home</Link>
+          <Link className='nav-link' to='/about'>About</Link>
+          <Link className='nav-link' to='/portfolio'>Portfolio</Link>
+          <Link className='nav-link' to='/contact'>Contact</Link>
+        </div>
+      </div> 
+    </div> 
   )
 }
 
