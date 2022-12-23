@@ -1,10 +1,36 @@
-ul {
+* {
+  box-sizing: border-box;
+}
+
+.nav {
+  height: 50px;
+  width: 100%;
+  position: relative;
   background-color: #959595;
 }
 
-li {
-  display: inline;
-  border-right: 1px solid #959595;
+.nav-btn {
+  display: none;
+}
+
+/* .nav-link {
+  display: inline-block;
+  font-size: 18px;
+} */
+
+.nav > #nav-check {
+  display: none;
+}
+
+.nav-link {
+  display: inline-block;
+  padding: 10px;
+  margin-right: 25px;
+  margin-left: 25px;
+  background-color: #959595; 
+  color: black;
+  font-size: 20px;
+  font-family: 'Courier New', Courier, monospace;
 }
 
 a {
@@ -12,10 +38,8 @@ a {
   padding: 10px;
   margin-right: 25px;
   margin-left: 25px;
-  background-color: #959595; 
-  color: black;
   font-size: 24px;
-  font-family: 'Courier New', Courier, monospace;
+  color: black;
 }
 
 a:hover {
@@ -23,6 +47,26 @@ a:hover {
   font-weight: bold;
 }
 
-li:last-child {
-  float: right;
+@media (max-width:656px) {
+  .nav-btn {
+    display: inline-block;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+  }
+
+  .nav-btn > label {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    padding: 13px;
+  }
+
+  .nav-btn > label > span {
+    display: block;
+    width: 25px;
+    height: 10px;
+    border-top: 2px solid #eee;
+  }
+  
 }

@@ -11,17 +11,3 @@
     color: white;
     justify-content: center;
   }
-  
-  .footer-link {
-    padding: 10px;
-    background-color: #959595; 
-    color: black;
-    font-size: 24px;
-    font-family: 'Courier New', Courier, monospace;
-  }
-  
-  .footer-link:hover {
-    color: rgb(224, 224, 224);
-    font-weight: bold;
-  }
-  
