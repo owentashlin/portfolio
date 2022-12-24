@@ -1,4 +1,4 @@
-import ResumeViewer from "../../components/Resume/Resume";
+import ResumeViewer from "../../components/Resume/Resume-Viewer";
 import "./Contact.css";
 
 function Contact() {
