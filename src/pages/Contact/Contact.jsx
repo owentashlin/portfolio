@@ -18,7 +18,7 @@ function Contact() {
     <>
       <h1>Get In Touch:</h1>
       <p>
-        I am currently located in the Portland, Oregon area and open to working either in person locally remotely in other areas. If you like what you see, I would love to hear from you! I can be reached via email,  phone, or LinkedIn.
+        I am currently located in the <strong>Portland, Oregon</strong> area and open to working either in person or remote in other regions. If you like what you see, I would love to hear from you!
       </p>
       <p>
         Links to my email and LinkedIn are below, as well as GitHub and you can download a copy of my resume with the button below.
