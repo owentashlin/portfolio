@@ -27,7 +27,9 @@ function Contact() {
         Resume
       </button>
       <hr></hr>
-      <ResumeViewer />
+      <div className="resume-viewer">
+        <ResumeViewer />
+      </div>
     </>
   );
 }
