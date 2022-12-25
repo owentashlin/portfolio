@@ -1,3 +1,11 @@
+.portfolio {
+    margin: 10px;
+}
+
+.hidden {
+    color: white;
+}
+
 .project-link {
     display: flex;
     justify-content: center;
@@ -28,10 +36,60 @@
     display: flex;
     justify-content: center;
     align-content: center;
-    margin: auto;
-    text-align: justify;
+    /* margin: auto; */
+    text-align: left;
 }
 
 #git-link {
     font-size: 16px;
 }
+
+@media only screen and (max-width: 500px) {
+    .portfolio {
+        margin-top: 60px;
+    }
+    
+    h1{
+        font-size: 16px;
+    }
+
+    .project-link {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+        margin: 10px 40px;
+        max-width: 900px;
+    }
+
+    .project-link-image{
+        width: 200px;
+        height: 150px;
+        border-radius: 100px 100px;
+        border: 3px solid grey;
+        opacity: 80%;
+        transition: .2s;
+    }
+    
+    .project-link-image:hover {
+        width: 200px;
+        height: 200px;
+        border-radius: 100px 100px;
+        box-shadow: 0px 0px 15px 5px rgb(182, 181, 181);
+        transition: .2s;
+        opacity: 100%;
+    }
+
+    .project-description {
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        margin: auto;
+        text-align: left;
+        font-size: 12px;
+    }
+
+    #git-link {
+        font-size: 12px;
+    }
+}    

@@ -2,7 +2,7 @@ import "./Portfolio.css";
 
 function Portfolio() {
   return (
-    <>
+    <div className="portfolio">
       <h1>Follow the links below to preview some of my previous work:</h1>
       <div className="project-link">
         <a href="/portfolio">
@@ -30,6 +30,13 @@ function Portfolio() {
       </div>
 
       <div className="project-link">
+        <a href="https://fathomless-tundra-68839.herokuapp.com/">
+          <img
+            className="project-link-image"
+            src="https://i.imgur.com/IWrzMeF.png"
+            alt="project link"
+          />
+        </a>
         <div className="project-description">
           <p>
             <strong>The Reading Room</strong> The Reading Room is an app
@@ -45,17 +52,10 @@ function Portfolio() {
             </a>
           </p>
         </div>
-        <a href="/portfolio">
-          <img
-            className="project-link-image"
-            src="https://i.imgur.com/IWrzMeF.png"
-            alt="project link"
-          />
-        </a>
       </div>
 
       <div className="project-link">
-        <a href="/portfolio">
+        <a href="https://tranquil-badlands-75485.herokuapp.com/">
           <img
             className="project-link-image"
             src="https://i.imgur.com/Yua10Ze.jpg"
@@ -64,7 +64,7 @@ function Portfolio() {
         </a>
         <div className="project-description">
           <p>
-            <strong>The Craft Room</strong> The Craft Room is an app that allows
+            <strong>CraftSpace</strong> CraftSpace is an app that allows
             users to store and refer back to craft projects they have either
             worked on or already finished. They can link to outside sources for
             patterns, keep a log of supplies, and mark the status of different
@@ -82,6 +82,13 @@ function Portfolio() {
       </div>
 
       <div className="project-link">
+        <a href="/portfolio">
+          <img
+            className="project-link-image"
+            src="https://i.imgur.com/yOoPBoG.png"
+            alt="project link"
+          />
+        </a>
         <div className="project-description">
           <p>
             <strong>Project 4:</strong> Description text here...
@@ -94,15 +101,9 @@ function Portfolio() {
             </a>
           </p>
         </div>
-        <a href="/portfolio">
-          <img
-            className="project-link-image"
-            src="https://i.imgur.com/yOoPBoG.png"
-            alt="project link"
-          />
-        </a>
       </div>
-    </>
+        <div className="hidden">this is a hidden paragraph to try to fix the weird margin issue with my footer..</div>
+    </div>
   )
 }
 

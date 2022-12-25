@@ -20,13 +20,14 @@ function ResumeViewer() {
 
 	return (
 		<div>
-			<nav>
+			<div>
 				<button onClick={goToPrevPage}>Prev</button>
+				|
 				<button onClick={goToNextPage}>Next</button>
 				<p>
 					Page {pageNumber} of {numPages}
 				</p>
-			</nav>
+			</div>
 
 			<Document file="Owen_Tashlin_Resume.pdf" onLoadSuccess ={onDocumentLoadSuccess}>
 				<Page pageNumber={pageNumber} />
