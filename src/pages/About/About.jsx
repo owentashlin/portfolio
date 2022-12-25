@@ -3,13 +3,31 @@ import './About.css'
 function About() {
     return ( 
         <div className='about'>
-            <h1>Full Stack Software Engineer, Product Designer, Fiber Artist</h1>
-            <p>Coming out of a <strong>design and invention </strong>background, I approach front end and full stack software development as an opportunity to find new <strong>solutions</strong>. 
-                
-            <p>I excel in environments that allow for collaboration and free exchange of ideas, as many eyes on a problem will always yield a better resolution in the end. </p>
-            
-            I have extensive customer service experience in both media and medical environments, which has given me a good understanding of how a user experience effects the impression of a brand as a whole. This combination of problem solving mentality and understanding of customer experience has given me a valuable perspective when training and supervising others, as well as in my own work.</p>
-            <img src="https://i.imgur.com/7o0HM6x.jpg" title="source: imgur.com" className='headshot' alt='headshot' />
+            <h1 className='about-header' >Full Stack Software Engineer, Product Designer, Fiber Artist</h1>
+
+            <p>Coming out of a <strong>design and invention </strong>background, I approach front end and full stack software development as an opportunity to find new <strong>solutions</strong>.</p>
+
+            <p>While environments that allow for <strong>collaboration</strong> and free exchange of ideas are my preference (the more eyes on a problem, the better!), I am also comfortable working solo. </p>
+
+            <p>Over a decade working with the public in a variety of fields has given me a good understanding of how a <strong>user experience</strong> can effect not only feelings about a product, but about the impression of a brand as a whole.</p> 
+
+            <p>This combination of <strong>problem solving</strong> mentality and understanding of customer experience has given me a valuable perspective when <strong>training and supervising</strong> others, as well as in my own work.</p>
+
+            <div className='image-list'>
+            <p>These are my current preferred languages and frameworks, but I am always looking to learn more!</p>
+            <img src="https://i.imgur.com/7o0HM6x.jpg" title="source: imgur.com" className='headshot' alt='headshot'/>
+            <ul className='about-list'>
+                <li className='about-item'>JavaScript</li>
+                <li className='about-item'>React</li>
+                <li className='about-item'>Python</li>
+                <li className='about-item'>Django</li>
+                <li className='about-item'>Node.js</li>
+                <li className='about-item'>Express</li>
+                <li className='about-item'>MongoDB</li>
+                <li className='about-item'>SQL</li>
+            </ul>
+            </div>
+            <div className="hidden">this is a hidden paragraph to try to fix the weird margin issue with my footer..</div>
         </div>
      );
 }
