@@ -1,12 +1,13 @@
 import React, {useState} from 'react'
 import { Document, Page } from 'react-pdf/dist/esm/entry.webpack'
+import './Resume-Viewer.css'
 
 
 function ResumeViewer() {
     const [numPages, setNumPages] = useState(null)
 	const [pageNumber, setPageNumber] = useState(1)
 
-	const onDocumentLoadSuccess = ({ numPages }) => {
+	const onDocumentLoadSuccess = ({numPages}) => {
 		setNumPages(numPages)
 	}
 
@@ -28,7 +29,6 @@ function ResumeViewer() {
 					Page {pageNumber} of {numPages}
 				</p>
 			</div>
-
 			<Document file="Owen_Tashlin_Resume.pdf" onLoadSuccess ={onDocumentLoadSuccess}>
 				<Page pageNumber={pageNumber} />
 			</Document>
