@@ -91,7 +91,7 @@ function Portfolio() {
         </a>
         <div className="project-description">
           <p>
-            <strong>Project 4:</strong> Description text here...
+            <strong>Project 4:</strong> Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam magnam quasi tempora. Quaerat iure molestiae sint iusto illo unde quis earum eos deserunt libero, optio minima amet in ad ea.
             <hr></hr>
             <em>
               Technologies Used: 

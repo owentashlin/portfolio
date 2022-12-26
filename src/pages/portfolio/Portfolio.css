@@ -49,10 +49,6 @@
         margin-top: 60px;
     }
     
-    h1{
-        font-size: 16px;
-    }
-
     .project-link {
         display: flex;
         flex-direction: column;
