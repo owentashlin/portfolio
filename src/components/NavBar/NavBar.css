@@ -6,22 +6,18 @@ nav {
   height: 65px;
   width: 100%;
   position: relative;
-  /* background-color: #959595; */
   background: rgba(255, 255, 255, 1.0);
-background: -webkit-linear-gradient(bottom, rgba(255, 255, 255, 1.0), rgba(149, 149, 149, 1.0));
-background: -moz-linear-gradient(bottom, rgba(255, 255, 255, 1.0), rgba(149, 149, 149, 1.0));
-background: linear-gradient(to top, rgba(255, 255, 255, 1.0), rgba(149, 149, 149, 1.0));
+  background: -webkit-linear-gradient(bottom, rgba(255, 255, 255, 1.0), rgba(149, 149, 149, 1.0));
+  background: -moz-linear-gradient(bottom, rgba(255, 255, 255, 1.0), rgba(149, 149, 149, 1.0));
+  background: linear-gradient(to top, rgba(255, 255, 255, 1.0), rgba(149, 149, 149, 1.0));
 }
 
 .nav-list {
   height: 60px;
-  /* background-color: #959595; */
-  
 }
 
 .nav-link {
   display: inline-block;
-  /* background-color: #959595;  */
   color: black;
   font-size: 20px;
   font-family: 'Courier New', Courier, monospace;
@@ -41,7 +37,7 @@ a:hover {
   font-weight: bold;
 }
 
-@media (max-width:500px) {
+@media (max-width:700px) {
   nav {
     height: 200px;
     width: 100%;

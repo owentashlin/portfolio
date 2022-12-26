@@ -1,12 +1,16 @@
 import './Home.css'
 function Home() {
     return (
-        <>
-        <p>hello! my name is owen tashlin.</p>
-        <p>i approach software engineering and design like any other design process, starting with a need and breaking it down to see where it goes. My designs principles lean towards <em>simple but effective</em> and prioritize ease of use and discoverability to enhance the user experience.</p>
-        <p>checkout out my portfolio for some examples of projects, or find me on linkedin and github.</p>
-        <img src='/books&tea_link.png'/>
-        </> 
+        <div className='home'>
+        <h1 className='home-header'>Hi! My name is Owen Tashlin.</h1>
+        <h2 className='home-text'> I approach to software engineering a lot like any other design process.</h2> 
+            
+        <p className='home-text'>I start with a need and break it down to see where it goes. My designs principles lean towards <strong>simple but effective</strong> and prioritize ease of use and <strong>discoverability</strong> to enhance the user experience.</p>
+
+        <p className='home-text'>Checkout out my Portfolio for some examples of recent projects, or find me on <strong>LinkedIn and GitHub</strong>.</p>
+
+        <img src="/headshot-old.jpg" className='headshot' alt='headshot'/>
+        </div> 
      )
 }
 

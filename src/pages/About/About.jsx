@@ -15,7 +15,6 @@ function About() {
 
             <div className='image-list'>
             <p>These are my current preferred languages and frameworks, but I am always looking to learn more!</p>
-            <img src="https://i.imgur.com/7o0HM6x.jpg" title="source: imgur.com" className='headshot' alt='headshot'/>
             <ul className='about-list'>
                 <li className='about-item'>JavaScript</li>
                 <li className='about-item'>React</li>
@@ -27,6 +26,10 @@ function About() {
                 <li className='about-item'>SQL</li>
             </ul>
             </div>
+            <div className="hidden">this is a hidden paragraph to try to fix the weird margin issue with my footer..</div>
+            <div className="hidden">this is a hidden paragraph to try to fix the weird margin issue with my footer..</div>
+            <div className="hidden">this is a hidden paragraph to try to fix the weird margin issue with my footer..</div>
+            <div className="hidden">this is a hidden paragraph to try to fix the weird margin issue with my footer..</div>
             <div className="hidden">this is a hidden paragraph to try to fix the weird margin issue with my footer..</div>
         </div>
      );
