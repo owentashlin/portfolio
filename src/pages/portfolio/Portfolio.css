@@ -18,7 +18,7 @@
     width: 300px;
     height: 300px;
     border-radius: 400px 400px;
-    border: 3px solid grey;
+    border: 3px solid #197278;
     opacity: 50%;
     transition: .2s;
 }
@@ -27,7 +27,7 @@
     width: 315px;
     height: 315px;
     border-radius: 200px 150px;
-    box-shadow: 0px 0px 15px 5px rgb(182, 181, 181);
+    box-shadow: 0px 0px 15px 5px #772E25;
     transition: .2s;
     opacity: 100%;
 }
@@ -42,6 +42,11 @@
 
 #git-link {
     font-size: 16px;
+    color: #772E25;
+}
+
+#git-link:hover {
+    color: #C44536 ;
 }
 
 @media only screen and (max-width: 500px) {
@@ -62,7 +67,7 @@
         width: 200px;
         height: 150px;
         border-radius: 100px 100px;
-        border: 3px solid grey;
+        border: 3px solid #197278;
         opacity: 80%;
         transition: .2s;
     }
@@ -71,7 +76,7 @@
         width: 200px;
         height: 200px;
         border-radius: 100px 100px;
-        box-shadow: 0px 0px 15px 5px rgb(182, 181, 181);
+        box-shadow: 0px 0px 15px 5px #197278;
         transition: .2s;
         opacity: 100%;
     }
