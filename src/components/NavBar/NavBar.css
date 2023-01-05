@@ -7,9 +7,9 @@ nav {
   width: 100%;
   position: relative;
   background: rgba(255, 255, 255, 1.0);
-  background: -webkit-linear-gradient(bottom, rgba(255, 255, 255, 1.0), rgba(149, 149, 149, 1.0));
-  background: -moz-linear-gradient(bottom, rgba(255, 255, 255, 1.0), rgba(149, 149, 149, 1.0));
-  background: linear-gradient(to top, rgba(255, 255, 255, 1.0), rgba(149, 149, 149, 1.0));
+  background: -webkit-linear-gradient(bottom, rgba(255, 255, 255, 1.0), #283D3B);
+  background: -moz-linear-gradient(bottom, rgba(255, 255, 255, 1.0), #283D3B);
+  background: linear-gradient(to top, rgba(255, 255, 255, 1.0), #283D3B);
 }
 
 .nav-list {
@@ -18,7 +18,7 @@ nav {
 
 .nav-link {
   display: inline-block;
-  color: black;
+  color: #772E25;
   font-size: 20px;
   font-family: 'Courier New', Courier, monospace;
 }
@@ -33,7 +33,7 @@ a {
 }
 
 a:hover {
-  color: rgb(224, 224, 224);
+  color: #C44536;
   font-weight: bold;
 }
 
@@ -49,6 +49,7 @@ a:hover {
     font-size: 24px;
     margin: 0;
     text-align: center;
+    color: #C44536;
   }
 
   #simon{

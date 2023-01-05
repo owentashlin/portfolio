@@ -26,13 +26,21 @@ function About() {
                 <li className='about-item'>SQL</li>
             </ul>
             </div>
-            <div className="hidden">this is a hidden paragraph to try to fix the weird margin issue with my footer..</div>
-            <div className="hidden">this is a hidden paragraph to try to fix the weird margin issue with my footer..</div>
-            <div className="hidden">this is a hidden paragraph to try to fix the weird margin issue with my footer..</div>
-            <div className="hidden">this is a hidden paragraph to try to fix the weird margin issue with my footer..</div>
-            <div className="hidden">this is a hidden paragraph to try to fix the weird margin issue with my footer..</div>
+            <br></br>
+            <br></br>
+            <br></br>
+            <br></br>
+            <br></br>
+            <br></br>
+            <div className='about-logo'>
+                <img src='/simon-big.svg' alt='logo' id='rotate-center' />
+            </div>
+            <br></br>
+            <br></br>
+            <br></br>
+            <br></br>
         </div>
-     );
+     )
 }
 
 export default About;
