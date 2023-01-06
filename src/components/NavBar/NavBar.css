@@ -7,9 +7,9 @@ nav {
   width: 100%;
   position: relative;
   background: rgba(255, 255, 255, 1.0);
-  background: -webkit-linear-gradient(bottom, rgba(255, 255, 255, 1.0), #283D3B);
-  background: -moz-linear-gradient(bottom, rgba(255, 255, 255, 1.0), #283D3B);
-  background: linear-gradient(to top, rgba(255, 255, 255, 1.0), #283D3B);
+  background: -webkit-linear-gradient(bottom, rgba(255, 255, 255, 1.0), #304946);
+  background: -moz-linear-gradient(bottom, rgba(255, 255, 255, 1.0), #304946);
+  background: linear-gradient(to top, rgba(255, 255, 255, 1.0), #304946);
 }
 
 .nav-list {
@@ -29,7 +29,7 @@ a {
   margin-right: 25px;
   margin-left: 25px;
   font-size: 24px;
-  color: black;
+  color: #772E25;
 }
 
 a:hover {
