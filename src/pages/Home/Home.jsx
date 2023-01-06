@@ -3,7 +3,7 @@ function Home() {
     return (
         <div className='home'>
         <h1 className='home-header'>Hi! My name is Owen Tashlin.</h1>
-        <h2 className='home-text'> I approach to software engineering a lot like any other design process.</h2> 
+        <h2 className='home-text'> I approach software engineering a lot like any other design process.</h2> 
             
         <p className='home-text'>I start with a need and break it down to see where it goes. My design principles lean toward <strong>simple but effective</strong> solutions, prioritize <strong>ease of use</strong>, and <strong>discoverability</strong> to enhance the user experience.</p>
 
