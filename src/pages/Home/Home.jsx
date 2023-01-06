@@ -9,7 +9,8 @@ function Home() {
 
         <p className='home-text'>Checkout out my Portfolio for some examples of recent projects, or find me on <strong>LinkedIn and GitHub</strong>.</p>
 
-        <img src="/headshot-old.jpg" className='headshot' alt='headshot'/>
+        <img src="https://i.imgur.com/7o0HM6x.jpg" title="source: imgur.com" alt='headshot' className='headshot' />
+
         </div> 
      )
 }
