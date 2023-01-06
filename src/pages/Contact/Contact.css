@@ -1,9 +1,0 @@
-.resume-button {
-    font-family: 'Courier New', Courier, monospace;
-}
-
-@media only screen and (max-width: 500px) {
-    .resume-viewer{
-        display: none;
-    }
-}
