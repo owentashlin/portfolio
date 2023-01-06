@@ -5,7 +5,7 @@ function Portfolio() {
     <div className="portfolio">
       <h1>Follow the links below to preview some of my previous work:</h1>
       <div className="project-link">
-        <a href="/portfolio">
+        <a href="https://peaceful-springs-61150.herokuapp.com/">
           <img
             className="project-link-image"
             src="https://i.imgur.com/WGtOhuB.png"
@@ -14,10 +14,10 @@ function Portfolio() {
         </a>
         <div className="project-description">
           <p>
-            <strong>Books & Tea:</strong> an app where users can make a library
-            of their favorite books and the teas they like to drink with them.
+            <strong>Books & Tea:</strong> Books & Tea is an app where users can make a collections of their
+            favorite books, as well as the teas they like to drink with them.
             <hr></hr>
-            <em>Technologies Used: Python, Django, HTML5, CSS, JavaScript</em>
+            <em>Technologies Used: Python, Django, HTML5, CSS, JavaScript, Materialize CSS Framework</em>
             <br></br>
             <a
               id="git-link"
@@ -25,6 +25,13 @@ function Portfolio() {
             >
               <u>GitHub Repo</u>
             </a>
+            <div>
+            <p><strong>demo login:</strong>
+            <br></br>
+            username: owen@tashlin.com
+            <br></br>
+            password: Th!s1safakepassword</p>
+            </div>
           </p>
         </div>
       </div>
@@ -39,17 +46,25 @@ function Portfolio() {
         </a>
         <div className="project-description">
           <p>
-            <strong>The Reading Room</strong> The Reading Room is an app
+            <strong>The Reading Room:</strong> The Reading Room is an app
             designed to allow users to share what they are reading and writing
             with other users, all in the same single page application.
             <hr></hr>
             <em>
               Technologies Used: React, JavaScript, Express, MongoDB/Mongoose,
-              HTML, CSS, Token-based Auth
+              HTML, CSS, Token-based Authentication
             </em>
+            <br></br>
             <a id="git-link" href="https://github.com/owentashlin/project3">
               <u>GitHub Repo</u>
             </a>
+            <div>
+            <p><strong>demo login:</strong>
+            <br></br>
+            username: owen@owen.com
+            <br></br>
+            password: owen</p>
+            </div>
           </p>
         </div>
       </div>
@@ -64,7 +79,7 @@ function Portfolio() {
         </a>
         <div className="project-description">
           <p>
-            <strong>CraftSpace</strong> CraftSpace is an app that allows
+            <strong>CraftSpace:</strong> CraftSpace is an app that allows
             users to store and refer back to craft projects they have either
             worked on or already finished. They can link to outside sources for
             patterns, keep a log of supplies, and mark the status of different
@@ -72,37 +87,55 @@ function Portfolio() {
             <hr></hr>
             <em>
               Technologies Used: JavaScript, MongoDB/Mongoose, Express/EJS,
-              HTML, CSS, Google OAuth{" "}
+              HTML, CSS, Google OAuth
             </em>
+            <br></br>
             <a id="git-link" href="https://github.com/owentashlin/project2">
               <u>GitHub Repo</u>
             </a>
+            <div>
+            <p><strong>demo login:</strong>
+            <br></br>
+            username: your google id
+            <br></br>
+            password: your google password</p>
+            </div>
           </p>
         </div>
       </div>
 
       <div className="project-link">
-        <a href="/portfolio">
+        <a href="https://obscure-hollows-38715.herokuapp.com/">
           <img
             className="project-link-image"
-            src="https://i.imgur.com/yOoPBoG.png"
+            src="/linkcable_link.png"
             alt="project link"
           />
         </a>
         <div className="project-description">
           <p>
-            <strong>Project 4:</strong> Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam magnam quasi tempora. Quaerat iure molestiae sint iusto illo unde quis earum eos deserunt libero, optio minima amet in ad ea.
+            <strong>LinkCable:</strong> LinkCable is a group project utilizing Django and Python. It is a dating app where users can sign up, list their interests and favorite games or systems and connect with others who share similar interests.
             <hr></hr>
             <em>
-              Technologies Used: 
+              Technologies Used: Django, Python, Materialize CSS Framework, PostgresQL, HTML, CSS, JavaScript
             </em>
-            <a id="git-link" href="/">
+            <br></br>
+            <a id="git-link" href="https://github.com/Team-weird-gif-of-my-face/Link-Cable">
               <u>GitHub Repo</u>
             </a>
+            <div>
+            <p><strong>demo login:</strong>
+            <br></br>
+            username: owen@owen.com
+            <br></br>
+            password: Th!s1safakepassword</p>
+            </div>
           </p>
         </div>
       </div>
-        <div className="hidden">this is a hidden paragraph to try to fix the weird margin issue with my footer..</div>
+        <br></br>
+        <br></br>
+        <br></br>
     </div>
   )
 }

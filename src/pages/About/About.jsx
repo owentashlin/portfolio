@@ -32,8 +32,9 @@ function About() {
             <br></br>
             <br></br>
             <br></br>
+
             <div className='about-logo'>
-                <img src='/simon-big.svg' alt='logo' id='rotate-center' />
+            <a href='https://owentashlin.github.io/GA--project-1-Simon/'><img src='/simon-big.svg' alt='logo' id='rotate-center'/></a>
             </div>
             <br></br>
             <br></br>

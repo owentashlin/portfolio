@@ -34,6 +34,10 @@ ul{
 }
 
 #rotate-center {
+    background-color: #59706d;
+    box-shadow: 0px 0px 15px 6px #304946;
+    border: 2px dotted black;
+    border-radius: 500px;
 	-webkit-animation: rotate-center 20s ease-in-out infinite both;
 	        animation: rotate-center 20s ease-in-out infinite both;
 }
@@ -59,6 +63,10 @@ ul{
     }
   }
   
+#rotate-center:hover{
+    background-color: #C44536;
+    box-shadow: 0px 0px 15px 6px #C44536;
+  }
 
 @media screen and (max-width: 500px) {
     .about{
