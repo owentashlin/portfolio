@@ -9,7 +9,7 @@ function About() {
 
             <p>While environments that allow for <strong>collaboration</strong> and free exchange of ideas are my preference (the more eyes on a problem, the better!), I am also comfortable working solo. </p>
 
-            <p>Over a decade working with the public in a variety of fields has given me a good understanding of how a <strong>user experience</strong> can effect not only feelings about a product, but about the impression of a brand as a whole.</p> 
+            <p>Over a decade working with the public in a variety of fields has given me a good understanding of how a <strong>user experience</strong> can affect not only feelings about a product, but about the impression of a brand as a whole.</p> 
 
             <p>This combination of <strong>problem solving</strong> mentality and understanding of customer experience has given me a valuable perspective when <strong>training and supervising</strong> others, as well as in my own work.</p>
 
