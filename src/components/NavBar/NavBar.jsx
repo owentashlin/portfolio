@@ -8,7 +8,7 @@ function NavBar() {
     <>
       <nav> 
         <div className='nav-list'>
-          <a className='nav-link' id='simon' href='https://owentashlin.github.io/GA--project-1-Simon/'><img src='simon.svg'/></a>
+          <a className='nav-link' id='simon' href='https://owentashlin.github.io/GA--project-1-Simon/'><img src='simon.svg' alt='logo'/></a>
           <Link className='nav-link' to='/'>Home</Link>
           <Link className='nav-link' to='/about'>About</Link>
           <Link className='nav-link' to='/portfolio'>Portfolio</Link>
