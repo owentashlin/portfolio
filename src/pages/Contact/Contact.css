@@ -2,6 +2,10 @@
     font-family: 'Courier New', Courier, monospace;
 }
 
+.portfolio-link{
+    font-size: 16px;
+}
+
 @media only screen and (max-width: 500px) {
     .resume-viewer{
         display: none;

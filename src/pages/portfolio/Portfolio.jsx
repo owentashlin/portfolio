@@ -25,6 +25,7 @@ function Portfolio() {
             >
               <u>GitHub Repo</u>
             </a>
+            <a id="git-link" href="https://peaceful-springs-61150.herokuapp.com/">Live Link</a>
             <div>
             <p><strong>demo login:</strong>
             <br></br>
@@ -58,6 +59,7 @@ function Portfolio() {
             <a id="git-link" href="https://github.com/owentashlin/project3">
               <u>GitHub Repo</u>
             </a>
+            <a id="git-link" href="https://fathomless-tundra-68839.herokuapp.com/">Live Link</a>
             <div>
             <p><strong>demo login:</strong>
             <br></br>
@@ -93,6 +95,7 @@ function Portfolio() {
             <a id="git-link" href="https://github.com/owentashlin/project2">
               <u>GitHub Repo</u>
             </a>
+            <a id="git-link" href="https://tranquil-badlands-75485.herokuapp.com/">Live Link</a>
             <div>
             <p><strong>demo login:</strong>
             <br></br>
@@ -123,6 +126,7 @@ function Portfolio() {
             <a id="git-link" href="https://github.com/Team-weird-gif-of-my-face/Link-Cable">
               <u>GitHub Repo</u>
             </a>
+            <a id="git-link" href="https://obscure-hollows-38715.herokuapp.com/">Live Link</a>
             <div>
             <p><strong>demo login:</strong>
             <br></br>
