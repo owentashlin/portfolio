@@ -3,7 +3,7 @@
 }
 
 nav {
-  height: 65px;
+  height: 100px;
   width: 100%;
   position: relative;
   background: rgba(255, 255, 255, 1.0);
@@ -21,8 +21,9 @@ nav {
 .nav-link {
   display: inline-block;
   color: #772E25;
-  font-size: 20px;
-  font-family: 'Courier New', Courier, monospace;
+  font-size: 24px;
+  font-family: 'Fira Mono', monospace;
+  font-weight: bold;
 }
 
 a {
@@ -30,13 +31,19 @@ a {
   padding: 10px;
   margin-right: 25px;
   margin-left: 25px;
-  font-size: 24px;
+  font-size: 30px;
   color: #772E25;
 }
 
 a:hover {
-  color: #C44536;
+  color: #b95b24;
   font-weight: bold;
+}
+
+@media (max-width:820px) {
+  #simon{
+    display: none;
+  }
 }
 
 @media (max-width:700px) {
