@@ -10,7 +10,7 @@ function NavBar() {
     <>
       <nav> 
         <div className='nav-list'>
-          <div><a className='nav-link' id='simon' href='https://owentashlin.github.io/GA--project-1-Simon/'><IoIosArrowBack size='30px'/><GiAnvilImpact size='35px'/><IoIosArrowForward size='30px'/></a></div>
+          <div><a className='nav-link' id='simon' href='https://jovial-elf-4f61ec.netlify.app/'><IoIosArrowBack size='30px'/><GiAnvilImpact size='35px'/><IoIosArrowForward size='30px'/></a></div>
           <Link className='nav-link' to='/'>Home</Link>
           <Link className='nav-link' to='/about'>About</Link>
           <Link className='nav-link' to='/portfolio'>Portfolio</Link>
