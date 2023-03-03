@@ -34,7 +34,7 @@ function About() {
             <br></br>
 
             <div className='about-logo'>
-            <a href='https://owentashlin.github.io/GA--project-1-Simon/'><img src='/simon-big.svg' alt='logo' id='rotate-center'/></a>
+            <a href='https://jovial-elf-4f61ec.netlify.app/'><img src='/simon-big.svg' alt='logo' id='rotate-center'/></a>
             </div>
             <br></br>
             <br></br>
