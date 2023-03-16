@@ -1,10 +1,22 @@
 .App {
-  font-family: 'Fira Mono', monospace;
+  font-family: 'Montserrat', sans-serif;
+}
+
+body {
+  background-color: #2F4858;
+}
+
+h1 {
+  color: #F26419;
+}
+
+h2 {
+  color:#F6AE2D;
 }
 
 @media only screen and (max-width: 500px) {
     body {
-      background-color: rgb(255, 255, 255)
+      background-color: #2F4858;
     }
 
     a {

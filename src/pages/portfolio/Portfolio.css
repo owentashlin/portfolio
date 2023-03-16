@@ -2,9 +2,9 @@
     margin: 10px;
 }
 
-.hidden {
+/* .hidden {
     color: white;
-}
+} */
 
 .project-link {
     display: flex;
@@ -18,7 +18,7 @@
     width: 300px;
     height: 300px;
     border-radius: 400px 400px;
-    border: 3px solid #197278;
+    border: 3px solid #33658A;
     opacity: 50%;
     transition: .2s;
 }
@@ -27,7 +27,7 @@
     width: 315px;
     height: 315px;
     border-radius: 200px 150px;
-    box-shadow: 0px 0px 15px 5px #772E25;
+    box-shadow: 0px 0px 15px 5px #F6AE2D;
     transition: .2s;
     opacity: 100%;
 }
@@ -42,11 +42,11 @@
 
 #git-link {
     font-size: 16px;
-    color: #772E25;
+    color: #F6AE2D;
 }
 
 #git-link:hover {
-    color: #C44536 ;
+    color: #F26419 ;
 }
 
 @media only screen and (max-width: 500px) {

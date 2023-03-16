@@ -1,9 +1,4 @@
   .footer {
-    background-color: #011715;
-    background: rgba(255, 255, 255, 1.0);
-    background: -webkit-linear-gradient(bottom, rgba(255, 255, 255, 1.0), #011715);
-    background: -moz-linear-gradient(bottom, rgba(255, 255, 255, 1.0), #011715);
-    background: linear-gradient(to bottom, rgba(255, 255, 255, 1.0), #011715);
     width: 100%;
     height: 65px; 
     margin: auto;
@@ -14,6 +9,11 @@
     bottom: 0;
     width: 100%;
     justify-content: center;
+    background-color: #F6AE2D;
+    opacity: 75%;
   }
 
+  .footer-link {
+    color: #2F4858;
+  }
  

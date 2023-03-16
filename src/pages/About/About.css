@@ -4,6 +4,7 @@
 
 .about-header {
     text-align: center;
+    color: #F26419;
 }
 
 .image-list {
@@ -18,10 +19,23 @@
     flex-direction: row;
     flex-wrap: wrap;
     left: 5px;
+    color: #F26419;
 }
 
 .about-item {
     margin: 5px 20px;
+}
+
+.headshot {
+    position: absolute;
+    top: 10px;
+    left: 35px;
+    border: 10px solid black;
+    border-radius: 0px 0px 50px 500px;
+    opacity: 0.30;
+    filter: blur(1.5px);
+    mask-image: radial-gradient(ellipse 90% 90% at 40% 60%, black 50%, transparent 65%);
+    z-index: -1;
 }
 
 ul{
@@ -34,8 +48,8 @@ ul{
 }
 
 #rotate-center {
-    background-color: #59706d;
-    box-shadow: 0px 0px 15px 6px #304946;
+    background-color: #2F4858;
+    box-shadow: 0px 0px 15px 6px #33658A;
     border: 2px dotted black;
     border-radius: 500px;
 	-webkit-animation: rotate-center 20s ease-in-out infinite both;
@@ -64,8 +78,8 @@ ul{
   }
   
 #rotate-center:hover{
-    background-color: #C44536;
-    box-shadow: 0px 0px 15px 6px #C44536;
+    background-color: #F26419;
+    box-shadow: 0px 0px 15px 6px #F26419;
   }
 
 @media screen and (max-width: 500px) {

@@ -17,7 +17,7 @@ function Footer() {
         <div className='footer'>
             <a className='footer-link' href='https://github.com/owentashlin'><FaGithubSquare/></a>
             <Mailto email="owentashlin@gmail.com" subject="Hello" body="Hello world!">
-            <ImMail/></Mailto>
+            <ImMail className='footer-link'/></Mailto>
             <a className='footer-link' href='https://www.linkedin.com/in/owen-tashlin/'><FaLinkedin/></a>
         </div>
      );

@@ -3,6 +3,7 @@ import './About.css'
 function About() {
     return ( 
         <div className='about'>
+            <img src="/headshot-old.jpg" className='headshot' alt='headshot'/>
             <h1 className='about-header' >Full Stack Software Engineer, Product Designer, Fiber Artist</h1>
 
             <p>Coming out of a <strong>design and invention </strong>background, I approach front end and full stack software development as an opportunity to find new <strong>solutions</strong>.</p>
