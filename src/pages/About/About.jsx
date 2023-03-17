@@ -33,10 +33,6 @@ function About() {
             <br></br>
             <br></br>
             <br></br>
-
-            <div className='about-logo'>
-            <a href='https://owensworkshop.netlify.app/'><img src='/simon-big.svg' alt='logo' id='rotate-center'/></a>
-            </div>
             <br></br>
             <br></br>
             <br></br>
