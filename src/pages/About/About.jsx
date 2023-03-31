@@ -19,6 +19,7 @@ function About() {
             <ul className='about-list'>
                 <li className='about-item'>JavaScript</li>
                 <li className='about-item'>React</li>
+                <li className='about-item'>Typescript</li>
                 <li className='about-item'>Python</li>
                 <li className='about-item'>Django</li>
                 <li className='about-item'>Node.js</li>
